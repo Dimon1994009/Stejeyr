@@ -1,0 +1,91 @@
+/* стили для тела сайта */
+body {
+    background-color: #1c1c1c;
+    color: #ccc;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* стили для шапки */
+  header {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  /* стили для навигационного меню */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #111;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    background-color: #333;
+  }
+  
+  /* стили для секции с продуктами */
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  article {
+    width: 30%;
+    margin-bottom: 20px;
+    background-color: #333;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  p {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .price {
+    color: green;
+    font-size: 24px;
+  }
+  
+  .buy-button {
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .buy-button:hover {
+    background-color: black;
+  }
+  img {
+  width: 50%;
+}
+

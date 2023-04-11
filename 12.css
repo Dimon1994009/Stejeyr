@@ -1,0 +1,40 @@
+<section class="welcome-section">
+  <div class="background-image"></div>
+  <div class="container">
+    <h1>Добро пожаловать в Stejeyr!</h1>
+    <p>Мы специализируемся на производстве и продаже страйкбольного оружия, включая ножи, пистолеты, автоматы и гранатометы.</p>
+    <a href="#" class="shop-button">Перейти к покупкам</a>
+  </div>
+</section>
+
+<style>
+  .background-image {
+    height: 600px;
+    background-image: url("your-image-url.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container {
+    position: relative;
+    z-index: 1;
+    margin-top: -500px;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+  }
+  .shop-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  .shop-button:hover {
+    background-color: #fff;
+    color: #000;
+  }
+</style>
