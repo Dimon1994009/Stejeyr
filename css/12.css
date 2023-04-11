@@ -1,13 +1,4 @@
-<section class="welcome-section">
-  <div class="background-image"></div>
-  <div class="container">
-    <h1>Добро пожаловать в Stejeyr!</h1>
-    <p>Мы специализируемся на производстве и продаже страйкбольного оружия, включая ножи, пистолеты, автоматы и гранатометы.</p>
-    <a href="#" class="shop-button">Перейти к покупкам</a>
-  </div>
-</section>
 
-<style>
   .background-image {
     height: 600px;
     background-image: url("your-image-url.jpg");
@@ -37,4 +28,3 @@
     background-color: #fff;
     color: #000;
   }
-</style>
